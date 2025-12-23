@@ -1,4 +1,4 @@
-import Header from '../../components/header/index.';
+import Header from '../../components/header';
 import Tail from '../../components/tail';
 import React, { Fragment, useState } from 'react';
 import Swap from '../swap';
