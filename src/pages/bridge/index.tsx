@@ -1,4 +1,4 @@
-import Header from '../../components/header/index.';
+import Header from '../../components/header';
 import Tail from '../../components/tail';
 import React, { Fragment, useState } from 'react';
 import { Listbox, Tab, Transition } from '@headlessui/react';
@@ -394,7 +394,7 @@ const Bridge = () => {
                         className="text-xs  md:text-xl border border-gray-500 placeholder-gray-50 bg-gray-600 rounded-lg p-2 py-5 w-full text-white outline-none"
                         id="amount"
                         readOnly={true}
-                        placeholder='0'
+                        placeholder="0"
                       />
                       <div className="-mt-14 md:-mt-16 ml-3 text-xs flex items-center text-gray-300 font-semibold">
                         <button className="mr-2">Estimated</button>

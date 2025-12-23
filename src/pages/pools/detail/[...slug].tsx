@@ -1,5 +1,4 @@
-
-import Header from '../../../components/header/index.';
+import Header from '../../../components/header';
 import Tail from '../../../components/tail';
 import React, { Fragment, useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';

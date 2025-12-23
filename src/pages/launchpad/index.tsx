@@ -1,5 +1,5 @@
 import Heads from '../../components/head';
-import Header from '../../components/header/index.';
+import Header from '../../components/header';
 import React from 'react';
 import Tail from '../../components/tail';
 import Link from 'next/link';
@@ -129,21 +129,29 @@ const Content = () => {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <Link passHref href={`/launchpad/details/${show_project.project_name}`}  className="w-24 h-10   rounded-3xl bg-gradient-to-r from-[#4B85DC] to-[#511D94] text-xs font-semibold">
+                  <Link
+                    passHref
+                    href={`/launchpad/details/${show_project.project_name}`}
+                    className="w-24 h-10   rounded-3xl bg-gradient-to-r from-[#4B85DC] to-[#511D94] text-xs font-semibold"
+                  >
                     {/* <a> */}
-                      {/* <button className="w-24 h-10   rounded-3xl bg-gradient-to-r from-[#4B85DC] to-[#511D94] text-xs font-semibold"> */}
-                        Apply Now
-                      {/* </button> */}
+                    {/* <button className="w-24 h-10   rounded-3xl bg-gradient-to-r from-[#4B85DC] to-[#511D94] text-xs font-semibold"> */}
+                    Apply Now
+                    {/* </button> */}
                     {/* </a> */}
                   </Link>
                 </div>
               </div>
               <div className="z-10 xl:hidden mt-4 ">
-                <Link passHref href={`/launchpad/details/${show_project.project_name}`}  className=" px-10 py-3 text-xl  rounded-full bg-gradient-to-r from-[#4B85DC] to-[#511D94]  font-semibold">
+                <Link
+                  passHref
+                  href={`/launchpad/details/${show_project.project_name}`}
+                  className=" px-10 py-3 text-xl  rounded-full bg-gradient-to-r from-[#4B85DC] to-[#511D94]  font-semibold"
+                >
                   {/* <a> */}
-                    {/* <button className=" px-10 py-3 text-xl  rounded-full bg-gradient-to-r from-[#4B85DC] to-[#511D94]  font-semibold"> */}
-                      Apply Now
-                    {/* </button> */}
+                  {/* <button className=" px-10 py-3 text-xl  rounded-full bg-gradient-to-r from-[#4B85DC] to-[#511D94]  font-semibold"> */}
+                  Apply Now
+                  {/* </button> */}
                   {/* </a> */}
                 </Link>
               </div>
@@ -152,11 +160,15 @@ const Content = () => {
           <div className="mt-12 ">
             <div className="flex justify-between items-center">
               <div className="text-xl xl:text-2xl ">Next IDO</div>
-              <Link passHref href="/nextido" className="px-8 py-2 text-[#4C83DB] border-2 xl:border border-[#4C83DB] rounded-3xl text-xs font-semibold">
+              <Link
+                passHref
+                href="/nextido"
+                className="px-8 py-2 text-[#4C83DB] border-2 xl:border border-[#4C83DB] rounded-3xl text-xs font-semibold"
+              >
                 {/* <a> */}
-                  {/* <button className="px-8 py-2 text-[#4C83DB] border-2 xl:border border-[#4C83DB] rounded-3xl text-xs font-semibold"> */}
-                    More
-                  {/* </button> */}
+                {/* <button className="px-8 py-2 text-[#4C83DB] border-2 xl:border border-[#4C83DB] rounded-3xl text-xs font-semibold"> */}
+                More
+                {/* </button> */}
                 {/* </a> */}
               </Link>
             </div>
